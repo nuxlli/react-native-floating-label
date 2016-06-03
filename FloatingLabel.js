@@ -1,9 +1,11 @@
-import React, {
+import React from 'react';
+import {
   Text,
   TextInput,
   View,
   Animated,
   TouchableWithoutFeedback,
+  StyleSheet,
 } from 'react-native'
 import t from 'tcomb-form-native'
 
@@ -153,7 +155,7 @@ class FloatingLabel extends Textbox {
   }
 }
 
-const styles = React.StyleSheet.create({
+const styles = StyleSheet.create({
   textInput: {
     height: 40,
   }
